@@ -1,0 +1,74 @@
+body{
+    background: #dddddd;
+}
+.logo{
+    width: 160px;
+}
+.espacio{
+    margin-top:1rem;
+}
+
+/*------------------------------------------------------------------
+[3. Subnavbar / .subnavbar]
+*/
+
+.subnavbar {
+    margin-bottom: 1.5em;
+}
+    
+.subnavbar-inner {
+	height: 60px;
+	background: #fff;
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.subnavbar > ul {
+	display: inline-block;
+    height: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+.subnavbar > ul > li {
+	float: left;
+	min-width: 90px;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	list-style: none;
+	border-left: 1px solid #d9d9d9;
+}
+
+.subnavbar > ul > li > a {
+	display: block;
+	height: 100%;
+	padding: 0 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #b2afaa;
+}
+
+.subnavbar > ul > li > a:hover {
+	color: #888;
+	text-decoration: none;
+}
+
+.subnavbar > ul > li > a > i {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-top: 11px;
+	margin-bottom: -3px;
+	font-size: 20px;
+}
+
+.subnavbar > ul > li > a > span {
+	display: block;
+}
+
+
+.subnavbar > ul > li.active > a {
+	border-bottom:3px solid #ff7f74;
+	color: #383838;
+}
